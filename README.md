@@ -1,58 +1,83 @@
-<h1>👋 Hi, I'm Om Dangol</h1>
+﻿# Om Dangol
 
-**AI Undergraduate | Aspiring Machine Learning & Software Developer**
+**AI Undergraduate | GenAI, Knowledge Systems & Software Engineering**  
+Kathmandu, Nepal • [LinkedIn](https://www.linkedin.com/in/om-dangol-0a39243a7/) • [Email](mailto:omdangol68@gmail.com) • [GitHub](https://github.com/omwe77)
 
-I build projects in **Java, Python, and web technologies**, and I'm working towards a career in **artificial intelligence and machine learning**.
+---
 
-<h2>💫 About Me</h2>
+## Profile
 
-- 🎓 AI undergraduate student
-- 🔭 Currently building my foundation in **machine learning and software development**
-- 🛠️ I build projects **solo** and focus on clean, modular code
-- 🤝 Looking to collaborate on open source projects
-- 💬 Ask me about **Java, Python, OOP, or web development**
-- ⚡ Learning something new every day
+Undergraduate student pursuing a **BSc (Hons) in Computing with Artificial Intelligence** at **Islington College** (affiliated with London Metropolitan University). 
 
-<h2>🌐 Socials</h2>
+Focused on building practical, grounded AI and software systems—specifically **Large Language Model (LLM) applications**, **document understanding engines**, and **structured knowledge representation**. Practical experience across Python backend architectures, local model orchestration, bilingual NLP/OCR pipelines, object-oriented Java systems, and deterministic web simulation engines.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-dangol-0a39243a7/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omdangol68@gmail.com)
+---
 
-<h2>💻 Tech Stack</h2>
+## Technical Competencies
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+- **Languages:** Python, Java, JavaScript (ES6+), TypeScript, HTML5/CSS3, SQL
+- **GenAI & Knowledge Systems:** Local LLM Inference (Ollama), Open Knowledge Format (OKF v0.2), Dense Vector Retrieval (FAISS, `sentence-transformers`), Prompt Security (Injection Defense & Delimitation), Grounding & Contradiction Verification
+- **Document AI & NLP:** Tesseract OCR (Devanagari & English), PyMuPDF (fitz), pdfplumber, Text Chunking & Normalization, scikit-learn
+- **Backend & Web Engineering:** FastAPI, Next.js, React, Uvicorn, RESTful API Design, Node.js, Java Swing & AWT, Vanilla Web Standards
+- **Testing & Tooling:** Pytest (TDD), Playwright E2E, Vite, Git, Linux/Bash, Microsoft Azure
 
-<h2>🧠 What I've Worked With</h2>
+---
 
-- **Object-Oriented Programming**: designed and built a full Java application solo
-- **GUI development**: Java Swing desktop interface
-- **Machine learning basics**: spam email detection
-- **Modular programming and file-based data storage**: Python inventory system
-- **Responsive web design**: HTML, CSS, and JavaScript
+## Flagship Project
 
-<h2>🚀 Featured Projects</h2>
+### [hamiGenZ — Nepal-Focused AI Document Understanding Platform](https://github.com/omwe77/hamiGenz)
+*Python 3.12, FastAPI, Ollama (qwen3:8b), FAISS, Tesseract OCR, Next.js 16, TypeScript, React 19*
 
-| Project | Description | Tech |
-|---|---|---|
-| [hamiGenZ](https://github.com/omwe77/hamiGenz) | AI document understanding platform for Nepal: ask questions about PDFs and scanned documents in English, Nepali, or Romanized Nepali, with source citations | Python, FastAPI, Next.js, Ollama, FAISS |
-| [AI Subscription Management System](https://github.com/omwe77/ai-subscription-management-system) | Desktop app simulating AI subscriptions with token-based usage tracking, built solo with OOP principles | Java, Swing |
-| [Spam Email Classifier](https://github.com/omwe77/spam-email-classifier) | Beginner machine learning project that detects spam emails | Python |
-| [Pharmacy Inventory Management](https://github.com/omwe77/pharmacy-inventory-management-system) | Manages medicine records, sales, and restocking with file-based storage | Python |
-| [Eco-Friendly Awareness Mart](https://github.com/omwe77/eco-friendly-awareness-mart-website) | Responsive website promoting environmental awareness | HTML, CSS, JS |
-| [SIEP Arena Core](https://github.com/omwe77/SIEP--arena_coore) | World Cup football project | JavaScript |
+A local-first, offline-capable AI document-understanding platform engineered to help citizens navigate complex Nepali administrative forms, citizenship certificates, and government gazettes without cloud document leakage.
+- **Structured Knowledge Layer:** Implements the **Open Knowledge Format (OKF v0.2)** to maintain a versioned, machine-validated concept graph for Nepali civil procedures rather than relying solely on naive chunk similarity.
+- **Trilingual Ingestion & OCR:** Ingests PDFs and degraded scans using dual-engine Tesseract OCR (with dedicated Devanagari `nep` models) and PyMuPDF, dynamically selecting between Nepali and bilingual OCR modes.
+- **Multilingual Grounding:** Employs `paraphrase-multilingual-MiniLM-L12-v2` dense vectors in FAISS paired with a deterministic prompt-injection sanitizer and post-inference contradiction verification layer.
+- **Production Testing:** Backed by **282 passing regression and pipeline tests** and an interactive split-screen Next.js 16 workspace with live citation highlighting.
 
-<h2>📊 GitHub Stats</h2>
+---
 
-![Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=omwe77&theme=github_dark)
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=omwe77&theme=github_dark)
+## Selected Systems & Engineering Projects
 
-<h2>📫 Get in Touch</h2>
+### [ARENA_CORE — Deterministic Football Simulation Engine](https://github.com/omwe77/Arena_Core)
+*Vanilla JavaScript, Mulberry32 PRNG, WebAudio API, Vite, Playwright, Azure Static Web Apps*
+- Built a high-performance single-page sports simulation engine covering 13 major football competitions with zero runtime framework dependencies.
+- Implemented a mathematical **Poisson goal-distribution model** paired with a seeded **Mulberry32 PRNG** for strictly deterministic, reproducible tournament simulations.
+- Developed an interactive 2D pitch visualizer, custom 48-team World Cup bracket generator, procedural WebAudio sound synthesizer, and complete **Playwright E2E test suite**. Deployed live on Azure.
 
-Open to collaborations, feedback, and opportunities. Reach me on [LinkedIn](https://www.linkedin.com/in/om-dangol-0a39243a7/) or at **omdangol68@gmail.com**.
+### [AI Subscription Management System](https://github.com/omwe77/ai-subscription-management-system)
+*Java (JDK 17+), Java Swing, Object-Oriented Architecture, File I/O*
+- Designed and built a standalone desktop application simulating AI subscription plan tiers and prompt token quota management.
+- Implemented object-oriented class hierarchies utilizing abstract base classes (`AIModel`), concrete polymorphic extensions (`PersonalPlan`, `ProPlan`), bounded team seat arrays, and transaction persistence.
+
+---
+
+## Academic Research
+
+### Collaborative Research in Multilingual LLM Evaluation
+*Islington College / London Metropolitan University (Academic Research)*
+- Participated in comparative evaluation of lightweight open-weights LLMs (including Gemma 3 1B) across domain-specific Nepali datasets (Constitution & Law, civil procedures, socio-cultural texts).
+- Investigated hallucination frequency and factual verification performance on multilingual benchmarks (HalluVerse and Poly-FEVER QA datasets).
+
+---
+
+## Additional Coursework & Explorations
+
+- **[MedStore Pharmacy Inventory System](https://github.com/omwe77/pharmacy-inventory-management-system):** Modular Python CLI system with transactional integrity, inventory synchronization, and formatted text invoice generation.
+- **[EcoMart Responsive Web Prototype](https://github.com/omwe77/eco-friendly-awareness-mart-website):** Multi-page responsive static e-commerce prototype with client-side cart state management and design wireframes.
+- **[Spam Email Classifier](https://github.com/omwe77/spam-email-classifier):** Introductory NLP experiment demonstrating text vectorization (`CountVectorizer`) and probabilistic Naive Bayes classification.
+
+---
+
+## Current Learning & Focus
+
+- Advancing evaluation methodologies for agentic workflows (tool use, multi-step reasoning, plan-verification loops).
+- Scaling local inference latency optimization (quantization, vLLM / llama.cpp backends).
+- Expanding Open Knowledge Format schemas for complex public-policy and regulatory documents.
+
+---
+
+## Contact
+
+- **Email:** [omdangol68@gmail.com](mailto:omdangol68@gmail.com)
+- **LinkedIn:** [linkedin.com/in/om-dangol-0a39243a7](https://www.linkedin.com/in/om-dangol-0a39243a7/)
+- **GitHub:** [github.com/omwe77](https://github.com/omwe77)
